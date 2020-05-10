@@ -1,0 +1,53 @@
+.App {
+  background-image: linear-gradient(rgb(209, 255, 255),rgb(32, 109, 133));
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: white;
+  text-shadow: 1px 2px lightgray;
+  margin-bottom: 30px;
+}
+.interval-part {
+  color: white;
+  text-shadow: 1px 1px rgb(187, 187, 187);
+  border-radius: 5%;
+  height: 50vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  background-image: linear-gradient(rgb(179, 255, 255),rgb(54, 129, 151));
+}
+.interval{
+  display: flex;
+}
+.interval, button {
+  background-color: rgb(76, 166, 226);
+  color: white;
+  font-weight: bolder;
+  width: 50px;
+  border-radius: 5%;
+  border: none
+}
+.timer {
+  color: white;
+  font-weight: bolder;
+  text-shadow: 1px 1px rgb(187, 187, 187);
+  width: 40vw;
+}
+.timer,h4 {
+  font-size: 27px;
+  margin-bottom: 10px;
+}
+.timer-buttons{
+  padding: 10px;
+}
+button:disabled {
+  cursor: not-allowed;
+}
